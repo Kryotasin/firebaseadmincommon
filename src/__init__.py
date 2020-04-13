@@ -1,0 +1,1 @@
+from djangofirebaseadmin.firebaseadmin import DjangoFirebaseAdmin
