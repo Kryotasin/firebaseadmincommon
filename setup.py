@@ -7,8 +7,8 @@ setup(
   description = 'Package to integrate Firebase Admin with Django.',   # Give a short description about your library
   author = 'Kshitij Sinha',                   # Type in your name
   author_email = 'kshitij.sinha94@domain.com',      # Type in your E-Mail
-  url = 'https://github.com/Kryotasin/Django-Firebase-Admin',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Kryotasin/Django-Firebase-Admin/archive/0.1.tar.gz',    # I explain this later on
+  url = 'https://github.com/Kryotasin/firebaseadmincommon',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/Kryotasin/firebaseadmincommon/archive/0.1.tar.gz',    # I explain this later on
   keywords = ['Django', 'firebase', 'admin'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'firebase_admin',
