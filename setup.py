@@ -8,7 +8,7 @@ setup(
   author = 'Kshitij Sinha',                   # Type in your name
   author_email = 'kshitij.sinha94@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Kryotasin/firebaseadmincommon',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Kryotasin/firebaseadmincommon/archive/0.5.1tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Kryotasin/firebaseadmincommon/archive/0.5.1.tar.gz',    # I explain this later on
   keywords = ['Python', 'firebase', 'admin'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'firebase_admin',
