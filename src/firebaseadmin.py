@@ -42,6 +42,16 @@ class FirebaseAdmin:
     def document(self, document_name):
         return self.db.document(document_name)
 
+    # --------------------- WRITE DATA ------------------------ #
+
+    # Method to write to Document - Accepts a dictionary type
+
+    def write_document(self, document, contents):
+        if isinstance(contents, dict):
+            return document.set(contents)
+
+    # --------------------- READ DATA ------------------------- #
+
     # Return all contents inside specified Collection
     def collection_contents(self, collection):
         docs = collection.stream()
@@ -56,7 +66,7 @@ class FirebaseAdmin:
         try:
             doc = document.get()
             return  'Document data: {}'.format(doc.to_dict())
-        except google.cloud.exceptions.NotFound:
+        except:
             return 'No such document!'
 
     # Get contents no matter what the object is
@@ -65,3 +75,5 @@ class FirebaseAdmin:
             return self.document_contents(object)
         elif isinstance(object, firestore_v1.collection.CollectionReference):
             return self.collection_contents(object)
+        else:
+            return None
