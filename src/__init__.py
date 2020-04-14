@@ -1,1 +1,1 @@
-from djangofirebaseadmin.firebaseadmin import FirebaseAdmin
+from firebaseadmincommon.firebaseadmin import FirebaseAdmin
