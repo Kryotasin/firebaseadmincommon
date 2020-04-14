@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: firebaseadmincommon
+Version: 0.5.1
+Summary: Package to wrap Firebase Admin with Python.
+Home-page: https://github.com/Kryotasin/firebaseadmincommon
+Author: Kshitij Sinha
+Author-email: kshitij.sinha94@gmail.com
+License: MIT
+Download-URL: https://github.com/Kryotasin/firebaseadmincommon/archive/0.5.1.tar.gz
+Description: UNKNOWN
+Keywords: Python,firebase,admin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

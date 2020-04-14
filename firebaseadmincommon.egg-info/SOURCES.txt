@@ -1,0 +1,8 @@
+README.txt
+setup.cfg
+setup.py
+firebaseadmincommon.egg-info/PKG-INFO
+firebaseadmincommon.egg-info/SOURCES.txt
+firebaseadmincommon.egg-info/dependency_links.txt
+firebaseadmincommon.egg-info/requires.txt
+firebaseadmincommon.egg-info/top_level.txt
