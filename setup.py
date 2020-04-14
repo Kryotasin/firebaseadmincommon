@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
   name = 'firebaseadmincommon',         # How you named your package folder (MyLib)
   #packages = ['djangofirebaseadmin'],   # Chose the same as "name"
-  version = '0.5.2',      # Start with a small number and increase it with every change you make
+  version = '0.5.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Package to wrap Firebase Admin with Python.',   # Give a short description about your library
   author = 'Kshitij Sinha',                   # Type in your name
