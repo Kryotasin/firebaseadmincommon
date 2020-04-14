@@ -1,17 +1,17 @@
-from firebaseadmin import FirebaseAdmin
+# from firebaseadmin import FirebaseAdmin
 
-t = FirebaseAdmin('')
+# t = FirebaseAdmin('')
 
-print(t.check_status())
+# print(t.check_status())
 
-col = t.collection('jobposts').document('2')
+# col = t.collection('jobposts').document('2')
 
-print(t.get_contents(col))
+# print(t.get_contents(col))
 
 
-test ={
-    "one": "two",
-    "three": "four"
-}
+# test ={
+#     "one": "two",
+#     "three": "four"
+# }
 
-print(t.write_document(col, test))
+# print(t.write_document(col, test))
